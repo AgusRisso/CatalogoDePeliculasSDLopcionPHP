@@ -1,0 +1,150 @@
+.name-link{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.name-link:hover{
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
+.background-Header{
+	background-image: url("../Imagenes/fondo.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 150px;
+	background-color: black;
+}
+.btn-red{
+	color: white;
+	font-weight: bold;
+	background-color: #e60000;
+	text-decoration: none;
+}
+.btn-red:hover{
+	background-color: red;
+}
+.text-form{
+	color: white;
+	text-align: center;
+}
+.form-border{
+	border-color: #e60000;
+	border-width: 3px;
+}
+.form-border:focus{
+	border-color: red;
+	border-width: 4px;
+}
+legend{
+	border-color: #e60000;
+	border-width: 3px;
+}
+body{
+	background-color: black;
+	margin-top: 10px;
+}
+.panel-color{
+	background-color: black;
+	color: white;
+	text-align: justify;
+}
+.panel-border-film{
+	border-color: #e60000;
+	border-width: 3px;
+}
+.panel-border-comentario{
+	border-color: white;
+	border-width: 3px;
+}
+.poster{
+	height: 450px;
+	width: 350px;
+}
+.pagination {
+    display: inline-block;
+}
+.pagination a {
+    color: white;
+    background-color: #e60000;
+    float: left;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+.pagination a.active {
+    background-color: white;
+    color: #e60000;
+}
+.pagination a:hover:not(.active) {
+    background-color: red;
+}
+.center {
+    text-align: center;
+}
+.errorCrear{
+	color: white;
+	font-weight: bold;
+	background-color: #e60000;
+	text-decoration: none;
+	border-color: #e60000;
+}
+.text-table{
+	color: white;
+}
+.justify{
+	text-align: justify;
+}
+.table-link{
+	color: white;
+	text-decoration: none;
+}
+.table-link:hover{
+	color: red;
+	text-decoration: none;
+}
+
+/*css estrellas*/
+#form p {
+  text-align: left;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: white;
+}
+
+.clasificacion {
+  font-size: 30px;
+  text-align: left;
+  height: 50px;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: red;
+}
+
+input[type="radio"]:checked ~ label {
+  color: red;
+}
+/*fin css estrellas*/
+
+.estrella{
+	color: red;
+	font-size: 30px;
+	display: inline;
+}
+.enLinea{
+	display: inline;
+}
